@@ -1,0 +1,43 @@
+.copy_right_footer{
+    position:fixed;
+    color:white;
+    bottom:0;
+    width:100%;
+    background-color: grey;
+    line-height:3;
+    text-align:center;
+  }
+
+  .bob{
+      border-radius: 15px;
+      background-color: thistle;
+      box-shadow: 5px 5px 5px grey;
+  }
+
+  h5{
+      border-radius:25px;
+      background-color:beige;
+      width:350px;
+      font-size:20px;
+  }
+
+  img{
+      height:100px;
+      width:100px;
+      border-radius:5px;
+  }
+
+  h1{
+      font-size:30px;
+      font-family:roboto;
+  }
+
+  body{
+      background-color:lightblue;
+  }
+
+  .bob{
+    border-radius: 15px;
+    background-color:lavenderblush;
+    box-shadow: 5px 5px 5px grey;
+}

@@ -1,0 +1,228 @@
+<html>
+    <head>
+        <title>Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h1>Case Study between MobileNet and Google Lens</h1>
+<ol>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="bottle.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - Water Bottle </b></h5> 
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - water bottle</b></h5> 
+    <span></span>
+</h5>
+
+    <div class="mini-result">
+        <h4>Result - Both are correct</h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="airpods.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - airpods</b></h5> 
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - source of illumination</b></h5> 
+    <span></span>
+</h5>
+
+
+    <div class="mini-result">
+        <h4>Result - Google lens is more accurate </h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="book.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - book</b></h5> 
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - pencil box</b></h5> 
+    <span></span>
+</h5>
+
+
+    <div class="mini-result">
+        <h4>Result - Google lens is more accurate</h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="fidgetspinner.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - fidget spinner</b></h5> 
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - joystick</b></h5> 
+    <span></span>
+</h5>
+
+
+    <div class="mini-result">
+        <h4>Result - Google lens is more accurate</h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="lipgloss.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - lipstick </b></h5> 
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - lipstick</b></h5> 
+    <span></span>
+</h5>
+
+
+    <div class="mini-result">
+        <h4>Result - Both are correct</h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="pens.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - pens</b></h5> 
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - pipe organ</b></h5> 
+    <span></span>
+</h5>
+
+
+    <div class="mini-result">
+        <h4>Result - Google lens is more accurate</h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="perfume.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - perfume </b></h5> 
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - wine bottle </b></h5> 
+    <span></span>
+</h5>
+
+
+    <div class="mini-result">
+        <h4>Result - Google lens is more accurate</h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="pillow.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - pillow</b></h5>  
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - pillow</b></h5>
+    <span></span>
+</h5>
+
+    <div class="mini-result">
+        <h4>Result - Both are correct</h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="remote.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - remote</b></h5>
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - remote control</b></h5> 
+    <span></span>
+</h5>
+
+    <div class="mini-result">
+        <h4>Result - Both are correct</h4>
+        <hr>
+        <h4></h4>
+
+    </div>
+    </div>
+    <br><br>
+    <div class="bob">
+        <li>
+            <b>Test Image - </b><img src="rubikscube.jpeg" class="img-responsive"></b>
+        </li>
+        <h5>Output on <b>Google Lens - rubiks cube</b></h5>  
+         <span></span>
+    </h5>
+    <h5>Output on <b>MobileNet - digital clock</b></h5> 
+    <span></span>
+</h5>
+
+    <div class="mini-result">
+        <h4>Result - Google lens is more accurate</h4>
+        <hr>
+        <h4></h4>
+    </div>
+    </div>
+    <hr>
+    <br><br>
+
+    <div class="result">
+        <h4>I have tested <b>10</b> images. Google lens got <b>6</b> correct. According to my case study, <b>Google Lens</b> is more accurate.</h4>
+        <hr>
+        <h4></h4>
+    </div>
+</ol>
+<br>
+<div class="copy_right_footer">
+    Developed by - Nysha
+    </div>
+    
+        </center>
+    </body>
+</html>
